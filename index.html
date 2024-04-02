@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<p><strong>Preguntas-De-Reposición</strong></p>
+<br><br><br><br>
+<input type="text" placeholder="Numero-A-Recuperar : ">
+<br><br><br><br>
+
+<h1> Enviaste SMS este mes : </h1>
+<form id="sms">
+  <input type="radio" id="si" name="sms" value="si">
+  <label for="si">Sí</label>
+  <input type="radio" id="no" name="sms" value="no">
+  <label for="no">No</label>
+</form>
+
+<br><br><br><br>
+
+<h1> Combo mas usado los ultimos 3 meses : </h1>
+<form id="combos">
+  <input type="radio" class="izquierda" id="combo4" name="combo" value="Combo-$4">
+  <label for="combo4">Combo-$4</label>
+  <input type="radio" class="derecha" id="combo7" name="combo" value="Combo-$7">
+  <label for="combo7">Combo-$7</label><br><br><br><br>
+  <input type="radio" class="izquierda" id="combo8" name="combo" value="Combo-$8">
+  <label for="combo8">Combo-$8</label>
+  <input type="radio" class="derecha" id="combo10" name="combo" value="Combo-$10">
+  <label for="combo10">Combo-$10</label><br><br><br><br>
+  <input type="radio" class="izquierda" id="combo20" name="combo" value="Combo-$20">
+  <label for="combo20">Combo-$20</label>
+  <input type="radio" class="ultimo" id="combo25" name="combo" value="Combo-$25">
+  <label for="combo25">Combo-$25</label>
+</form>
+
+<br><br><br><br>
+
+<input type="text" placeholder="#-que-llama-con-Frecuencia : " id="llamadas">
+
+<br><br><br><br>
+
+<button id="boton" onclick="copiar()">Copiar</button>
+
+<script src="javascript.js"></script>
+</body>
+</html>
+

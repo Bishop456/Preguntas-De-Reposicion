@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+}
+
+p {
+  text-align: center;
+  font-size: 80px;
+  color: crimson;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 120px;
+  width: 700px;
+  font-size: 50px;
+  margin-left: 250px;
+}
+
+input[type="text"]::placeholder {
+  color: red;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  color: crimson;
+}
+
+label {
+  text-align: center;
+  font-size: 70px;
+  background-color: black;
+  color: purple;
+}
+
+#si {
+  margin-left: 300px;
+}
+
+#no {
+  margin-left: 400px;
+}
+
+.izquierda {
+  margin-left: 170px;
+}
+
+.derecha {
+  margin-left: 100px;
+}
+
+.ultimo {
+  margin-left: 60px;
+}
+
+input[type="radio"] {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  padding: 10px 10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+input[type="radio"]:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="radio"]:checked {
+  background-color: orange;
+}
+
+button {
+  text-align: center;
+  height: 120px;
+  width: 360px;
+  margin-left: 420px;
+  color: red;
+  font-size: 50px
+}
